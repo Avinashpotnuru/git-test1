@@ -1,0 +1,18 @@
+.parent {
+    padding: 10px;
+    border: solid 2px red;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+        "child1 child1 child2"
+        "child2 child2 child3 ";
+
+    gap: 10px;
+
+    .box {
+        background-color: rgb(244, 122, 122);
+    }
+
+}
